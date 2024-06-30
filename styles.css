@@ -5,6 +5,7 @@ body {
     background-color: #04342b;
     max-width: 100%;
     overflow-x: hidden;
+    margin: auto;
 }
 
 header {
