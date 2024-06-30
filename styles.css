@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Handlee&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #04342b;
+}
+
+header {
+   
+    color: white;
+    padding: 0;
+}
+
+nav
+{
+    background-color: #157067;
+    border-bottom: 3px solid rgb(43, 214, 185);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0px 10px;
+    padding: 8px 0px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.tenor-gif-embed
+{
+    text-align: center;
+}
+
+.tenor-gif-embed img
+{
+    height: 150px;
+    width: auto;
+}
+
+#poem
+{
+    color: rgb(254, 209, 209); 
+    font-size: 19px;
+    font-family:"Handlee", cursive;
+}
+
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section h2
+{
+    color: #fafdfd;
+}
+
+.intro {
+    margin-top: 20px;
+}
+
+.intro p
+{
+    width: 70%;
+    margin: auto;
+    padding: 0%;
+    color: rgb(180, 233, 219);
+    font-family:"Handlee", cursive;
+    font-size: 20px;
+}
+
+.gallery-container {
+    text-align: center;
+}
+
+.fun-button {
+    padding: 10px 20px;
+    background-color: rgb(142, 226, 191);
+    color: rgb(36, 25, 25);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 5px;
+}
+
+.fun-button:hover {
+    background-color: rgb(191, 250, 225);
+}
+
+.hidden {
+    display: none;
+}
+
+.fun-container
+{
+    width: 60vw;
+    min-width: 200px;
+    margin: auto;
+}
+
+#fun-content
+{
+    font-size: 1em;
+    background-color: #072b27;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    color: #ff4081;
+    width: 60%;
+    min-width: 200px;
+    height: 45vh;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fun-pop img
+{
+    width: 70%;
+}
+
+iframe {
+    width: 400px;
+    height: 230px;
+}
+
+.memory-lane
+{
+    width: 600px;
+    height: 340px;
+    border-radius: 10px;
+    border: 8px solid white; 
+}
+
+footer {
+    background-color:  #145b53;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.conclusion
+{
+    color: #fafdfd;
+    text-align: center;
+    width: 60vw;
+    margin: auto;
+}
+
+@media (max-width: 400px){
+    nav
+    {
+        text-align: center;
+        font-size: smaller;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    .tenor-gif-embed img
+    {
+        width: 150px;
+        height: auto;
+    }
+
+    section h2
+    {
+        font-size: 1.2em;
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 8px;
+    } 
+
+    .audio
+    {
+        width: 180px;
+    }
+
+    .intro p
+    {
+        width: 95%;
+        margin: auto;
+        font-size: 13px;
+    } 
+
+    #poem 
+    {
+        font-size: 12px;
+    }
+
+    .fun-container 
+    {
+        margin: 0px;
+        width: 92vw;
+        font-size: 12px;
+    }
+
+    #fun-content
+    {
+        height: 52vh;
+    }
+
+    section 
+    {
+        width: 92vw;
+        padding: 5px;
+        margin: 0px;
+    }
+
+    .fun-button
+    {
+        font-size: 13px;
+        padding: 2px 4px;
+        margin: 2px;
+    }
+
+    .fun-pop img
+    {
+        width: 95%;
+    }
+
+    .memory-lane
+    {
+        width: 240px;
+        height: 134px;
+        border: 3px solid white;
+    }
+
+    .gallery-container
+    {
+        font-size: 14px;
+    }
+
+    iframe {
+        width: 220px;
+        height: 150px;
+    }
+
+    .conclusion
+    {
+        font-size: 13px;
+        width: 85vw;
+    }
+
+}
